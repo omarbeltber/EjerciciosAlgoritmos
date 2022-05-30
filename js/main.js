@@ -1,6 +1,6 @@
 //1. Solicitar 3 números (entre el 1 y el 100) y definir cual es el menor
 
-/*let x1 = prompt("Pon el primer número");
+let x1 = prompt("Pon el primer número");
 if(x1< 1 || x1 >100){
     alert("Pon nuevamente");
     let x1 = prompt("Pon el primer número");
@@ -48,9 +48,9 @@ else if((y2 > y1) && (y2 > y3)){
 }
 else{
     alert("El número más grande es" + y3);
-} */
+} 
 //3. Suspendido //Adivinar un número entre el 1 y el 100 en el menor número de pasos posibles
-/*function Adivinar(){
+function Adivinar(){
 	let superior = 100;
 	let inferior = 0;
 	let noEncontrado = true;
@@ -68,10 +68,9 @@ else{
 			inferior=mid;
 		}
 	} 
-}*/
-
+}
 //4.Solicitar un entero (entre 100 y 200) y determinar si es múltiplo de 3
-/*let z1 = prompt("Pon un número entre 100 y 200");
+let z1 = prompt("Pon un número entre 100 y 200");
 if(z1< 100 || z1 >200){
     alert("Intenta nuevamente");
     let z1 = prompt("Ingresa un número entero");
@@ -82,7 +81,7 @@ if((z1 % 3) == 0){
 
 else{
     alert("No es multiplo de 3, Su Número " + z1);
-}*/
+}
 
 //5.Elaborar un algoritmo para leer 3 números y determinar si uno es la suma de los otros dos
 /*let x1 = prompt("Ingresa el primer número");
