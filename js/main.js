@@ -67,7 +67,7 @@ else{
 		}else{
 			inferior=mid;
 		}
-	}
+	} 
 }*/
 
 //4.Solicitar un entero (entre 100 y 200) y determinar si es múltiplo de 3
