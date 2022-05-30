@@ -1,8 +1,6 @@
 //1. Solicitar 3 números (entre el 1 y el 100) y definir cual es el menor
 
-
-/*
-let x1 = prompt("Pon el primer número");
+/*let x1 = prompt("Pon el primer número");
 if(x1< 1 || x1 >100){
     alert("Pon nuevamente");
     let x1 = prompt("Pon el primer número");
@@ -17,7 +15,6 @@ if(x3< 1 || x3 >100){
     alert("Pon nuevamente");
     let x3 = prompt("Pon el tercer número");
 }
-
 if((x1 < x2) && (x1 < x3)){
     alert("El número más chico es" + x1);
 }
@@ -27,7 +24,6 @@ else if((x2 < x1) && (x2 < x3)){
 else{
     alert("El número más chico es" + x3);
 }
-
 //2. Solicitar 3 números (entre el 1 y el 100) y definir cual es el mayor
 let y1 = prompt("Pon el primer número");
 if(y1< 1 || y1 >100){
@@ -44,7 +40,6 @@ if(y3< 1 || y3 >100){
     alert("Pon nuevamente");
     let y3 = prompt("Pon el tercer número");
 }
-
 if((y1 > y2) && (y1 > y3)){
     alert("El número más grande es" + y1);
 }
@@ -53,11 +48,29 @@ else if((y2 > y1) && (y2 > y3)){
 }
 else{
     alert("El número más grande es" + y3);
-} 
-*/
-//3. Suspendido
-//4.Solicitar un entero (entre 100 y 200) y determinar si es múltiplo de 3
+} */
+//3. Suspendido //Adivinar un número entre el 1 y el 100 en el menor número de pasos posibles
+/*function Adivinar(){
+	let superior = 100;
+	let inferior = 0;
+	let noEncontrado = true;
+	while(noEncontrado){
+		let mid = parseInt( inferior + ((superior-inferior)/2));
+		if(((superior-inferior)/2)<1){
+			noEncontrado = false;
+			alert("El número es el "+(parseInt(mid)+1));
+			break;
+		}
+		let res = confirm("El número es menor o igual a " + mid);
+		if(res){
+			superior=mid;
+		}else{
+			inferior=mid;
+		}
+	}
+}*/
 
+//4.Solicitar un entero (entre 100 y 200) y determinar si es múltiplo de 3
 /*let z1 = prompt("Pon un número entre 100 y 200");
 if(z1< 100 || z1 >200){
     alert("Intenta nuevamente");
@@ -72,15 +85,12 @@ else{
 }*/
 
 //5.Elaborar un algoritmo para leer 3 números y determinar si uno es la suma de los otros dos
-
 /*let x1 = prompt("Ingresa el primer número");
 let x2 = prompt("Ingresa el segundo número");
 let x3 = prompt("Ingresa el tercer número");
-
 x1=parseFloat(x1,10)
 x2=parseFloat(x2,10)
 x3=parseFloat(x3,10)
-
 if((x1 + x2) == x3) {
     alert( x3 + " Es la suma de los otros dos números");
 }
@@ -94,10 +104,8 @@ else{
     alert("La suma de dos números no dan uno de nuestros números");
 }*/
 //6.Elabora un algoritmo para determinar si es par o impar
-
 /*let x = prompt("Ingresa cualquier número");
 x = parseFloat(x,10)
-
 if(x % 2 == 0) {
     alert(x + " Su número es par");
 }
